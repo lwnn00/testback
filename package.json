@@ -1,21 +1,12 @@
 {
   "name": "football-handicap",
   "version": "1.0.0",
-  "description": "足球盘口记录分析系统",
+  "description": "足球盘口记录系统",
   "scripts": {
-    "dev": "vercel dev",
-    "deploy": "vercel --prod",
-    "test": "node test-db.js"
+    "start": "node test-db.js",
+    "dev": "node test-db.js"
   },
   "dependencies": {
-    "pg": "^8.11.3",
-    "cors": "^2.8.5"
-  },
-  "devDependencies": {
-    "@vercel/node": "^3.0.0"
-  },
-  "engines": {
-    "node": "24.x"
+    "pg": "^8.11.3"
   }
-
 }
